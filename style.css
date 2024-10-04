@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    transition: background-color 1s;
+
+}
+header {
+    background: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header1 {
+    background-image: url(imagenes/historia-programacion.jpg);
+    position: relative;
+    height: 70vh;
+
+}
+
+.menu{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: calc(3em + 18px); 
+    color: #eeeeee;
+    text-shadow: 2px 2px #808080, 6px 6px black;
+}
+h2{
+    text-shadow: 1px 1px white,2px 2px gray ;
+    font-size:calc(2em + 18px) ; 
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+
+.contenedor-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+} 
+
+
+
+.caja-historia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    gap: 20px;  
+}
+
+.caja-historia>img {
+    width: 50%;
+}
+
+.subtitulos {
+    color: rgb(58, 56, 56); 
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px white,2px 2px gray ;
+    font-weight: 300;    
+}
+
+.estilo-parrafo {
+    color: rgb(58, 56, 56);
+    font-family:  "Raleway", sans-serif;
+    letter-spacing: 1px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seccion-ensamblaje {
+    margin-left: 5px;
+    
+}
+
+.caja-ensamblaje {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    gap: 20px;  
+}
+
+.caja-ensamblaje>img {
+    width: 50%;
+}
+
+.subtitulos-ensamblaje {
+    color: rgb(58, 56, 56); 
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px white,2px 2px gray ;
+    font-weight: 300;    
+}
+
+
+.estilo-ensamblaje {
+    color: rgb(58, 56, 56);
+    font-family:  "Raleway", sans-serif;
+    letter-spacing: 1px; 
+}
+
+.footer-estilo {
+    padding: 80px;
+    background:#2F3645;
+}
+
+h3 {
+    font-size: 19px;
+    color: white;
+}
+
+.contenedor-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0px;
+        gap: 80px;
+}
+
+.barra {
+    border-radius: 20px;
+
+}
+
+.botonera {
+    
+    border-radius: 10px;
+    
+}
+
